@@ -1,8 +1,14 @@
+###GIThub repo
+https://github.com/AhmedAbdElbary/ITINavisworksApi2022
+
 ###API Docs for Navisworks
 https://apidocs.co/apps/navisworks/2018/N_Home.htm#
 
 ###SDK Download Url
-
+https://damassets.autodesk.net/content/dam/autodesk/www/adn/files/2020/Navisworks_API_SDK.exe
+https://damassets.autodesk.net/content/dam/autodesk/www/adn/files/2021/Navisworks_API_SDK.exe
+https://damassets.autodesk.net/content/dam/autodesk/www/adn/files/2022/Navisworks_API_SDK.exe
+https://damassets.autodesk.net/content/dam/autodesk/www/adn/files/2023/Navisworks_API_SDK.exe
 
 
 ###Steps To Create A Plugin:
