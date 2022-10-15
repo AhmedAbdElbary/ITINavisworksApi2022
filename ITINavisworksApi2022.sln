@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginAddinsTab", "PluginAddinsTab\PluginAddinsTab.csproj", "{FB59CF7C-1540-4B31-86F7-0BC3CC63CE04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session01", "Session01", "{1E22A908-6DB8-4EA0-990E-C72DB2343F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextMenuPlugin", "ContextMenuPlugin\ContextMenuPlugin.csproj", "{C743B3D4-F96B-482B-9548-DD810647F9C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{3D8AC8CA-39CF-4D53-BB93-99939B28451D}"
+	ProjectSection(SolutionItems) = preProject
+		Session01.txt = Session01.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanelAddin", "DockPanelAddin\DockPanelAddin.csproj", "{D459131B-999C-4ED0-94D4-58AB832F1F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanel2", "DockPanel2\DockPanel2.csproj", "{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB59CF7C-1540-4B31-86F7-0BC3CC63CE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB59CF7C-1540-4B31-86F7-0BC3CC63CE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB59CF7C-1540-4B31-86F7-0BC3CC63CE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB59CF7C-1540-4B31-86F7-0BC3CC63CE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C743B3D4-F96B-482B-9548-DD810647F9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C743B3D4-F96B-482B-9548-DD810647F9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C743B3D4-F96B-482B-9548-DD810647F9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C743B3D4-F96B-482B-9548-DD810647F9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D459131B-999C-4ED0-94D4-58AB832F1F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D459131B-999C-4ED0-94D4-58AB832F1F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D459131B-999C-4ED0-94D4-58AB832F1F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D459131B-999C-4ED0-94D4-58AB832F1F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB59CF7C-1540-4B31-86F7-0BC3CC63CE04} = {1E22A908-6DB8-4EA0-990E-C72DB2343F02}
+		{C743B3D4-F96B-482B-9548-DD810647F9C9} = {1E22A908-6DB8-4EA0-990E-C72DB2343F02}
+		{3D8AC8CA-39CF-4D53-BB93-99939B28451D} = {1E22A908-6DB8-4EA0-990E-C72DB2343F02}
+		{D459131B-999C-4ED0-94D4-58AB832F1F69} = {1E22A908-6DB8-4EA0-990E-C72DB2343F02}
+		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF} = {1E22A908-6DB8-4EA0-990E-C72DB2343F02}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D439FF4-1542-43F6-A431-45E2987A936E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+###API Docs for Navisworks
+https://apidocs.co/apps/navisworks/2018/N_Home.htm#
+
+###SDK Download Url
+
+
+
+###Steps To Create A Plugin:
+1. Create .Net Framework Project
+2.Add References: System, Autodesk.Navisworks.API, Window.Forms
+3.Create Class inherets from AddinPlugin
+4.Set Plugin Attributes: PluginAttribute + AddInPlugin
+5.Deploy Plugin to one of the following:
+	a.<Navisworks Installation Path>\Plugins\ 
+	b.%APPDATA%\Autodesk Navisworks Manage <release version>\Plugins
+	c.%APPDATA%\Autodesk\ApplicationPlugins or %PROGRAMDATA%\Autodesk\ApplicationPlugins
+
+###Post Build Command:
+md "C:\Program Files\Autodesk\Navisworks Manage 2021\Plugins\$(ProjectName)"
+xcopy /Y "$(TargetDir)*.dll" "C:\Program Files\Autodesk\Navisworks Manage 2021\Plugins\(ProjectName)"
+
+###Search For keywords
+-Navisworks Batch Utility
+-C# Reflection
+-C# Garbage Collection ==> Advanced
