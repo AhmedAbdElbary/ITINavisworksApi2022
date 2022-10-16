@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB59CF7C-1540-4B31-86F7-0BC3CC63CE04}</ProjectGuid>
+    <ProjectGuid>{91DDC29F-EF8C-4501-B58F-FAE34DFA9440}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PluginAddinsTab</RootNamespace>
-    <AssemblyName>PluginAddinsTab</AssemblyName>
+    <RootNamespace>OpenAppenSaveDocument</RootNamespace>
+    <AssemblyName>OpenAppenSaveDocument</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,7 +37,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,13 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PluginAddinsTab.cs" />
+    <Compile Include="OpenAppenSaveDocumentAddin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>md "%25APPDATA%25\Autodesk Navisworks Manage 2021\Plugins\$(ProjectName)"
-xcopy /Y "$(TargetDir)*.dll" "%25APPDATA%25\Autodesk Navisworks Manage 2021\Plugins\$(ProjectName)"
-</PostBuildEvent>
+xcopy /Y "$(TargetDir)*.dll" "%25APPDATA%25\Autodesk Navisworks Manage 2021\Plugins\$(ProjectName)"</PostBuildEvent>
   </PropertyGroup>
 </Project>

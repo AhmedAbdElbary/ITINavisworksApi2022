@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanelAddin", "DockPanel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanel2", "DockPanel2\DockPanel2.csproj", "{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session02", "Session02", "{B4BFE354-5852-4ADD-9DB2-9AA4BD38CDEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAppenSaveDocument", "OpenAppenSaveDocument\OpenAppenSaveDocument.csproj", "{91DDC29F-EF8C-4501-B58F-FAE34DFA9440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DDC29F-EF8C-4501-B58F-FAE34DFA9440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DDC29F-EF8C-4501-B58F-FAE34DFA9440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DDC29F-EF8C-4501-B58F-FAE34DFA9440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DDC29F-EF8C-4501-B58F-FAE34DFA9440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,7 @@ Global
 		{C743B3D4-F96B-482B-9548-DD810647F9C9} = {1E22A908-6DB8-4EA0-990E-C72DB2343F02}
 		{D459131B-999C-4ED0-94D4-58AB832F1F69} = {1E22A908-6DB8-4EA0-990E-C72DB2343F02}
 		{A8FE2E67-7A4D-4F43-BAAB-4847B70849DF} = {1E22A908-6DB8-4EA0-990E-C72DB2343F02}
+		{91DDC29F-EF8C-4501-B58F-FAE34DFA9440} = {B4BFE354-5852-4ADD-9DB2-9AA4BD38CDEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D439FF4-1542-43F6-A431-45E2987A936E}
