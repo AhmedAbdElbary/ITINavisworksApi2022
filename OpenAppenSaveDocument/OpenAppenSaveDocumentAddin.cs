@@ -29,8 +29,8 @@ namespace OpenAppenSaveDocument
             var targetFileName = Path.Combine(targetDir, DateTime.Now.ToString("yyyyMMdd_hhmmss") + "-MyDocument");
 
 			string[] files = Directory.GetFiles(sourceDir, nwcSearchPattern);
-			var isSourceDirExist = File.Exists(sourceDir);
-			if (isSourceDirExist)
+			var isSourceDirExist = Directory.Exists(sourceDir);
+			if (!isSourceDirExist)
 			{
 				System.Windows.Forms.MessageBox.Show("Source Dir Cannot be found!");
 			}
@@ -51,14 +51,14 @@ namespace OpenAppenSaveDocument
 			{
 				System.Windows.Forms.MessageBox.Show($"Unhandled Exception: {exp.Message}");
 			}
-
+			//Add comment
 			try
 			{
-				oDocument.SaveFile(targetFileName + nwfFileExtension, DocumentFileVersion.Navisworks2021);
+				oDocument.SaveFile(targetFileName + nwfFileExtension);
 			}
 			catch (DocumentFileException)
 			{
-				var isFileSaved = oDocument.TrySaveFile(targetFileName + nwfFileExtension, DocumentFileVersion.Navisworks2021);
+				var isFileSaved = oDocument.TrySaveFile(targetFileName + nwfFileExtension);
 
 				if (!isFileSaved)
 				{
